@@ -28,4 +28,7 @@ day = media.Movie(
 
 movies = [mulholland, eyes, vertigo, prestige, day]
 
+# This function call takes a list of movie instances as the input, 
+# generates a html page using the list, and opens the page in the
+# browser.
 ft.open_movies_page(movies)

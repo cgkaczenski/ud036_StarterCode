@@ -8,6 +8,9 @@ class Movie(object):
 		url.
 	"""
 	def __init__(self, title, poster, trailer):
+		""" Inits Movie class with title, poster url, 
+			and movie url.
+		"""
 		self.title = title
 		self.poster_image_url = poster
 		self.trailer_youtube_url = trailer
